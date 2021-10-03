@@ -119,7 +119,6 @@
             "start": 148500,
             "end": 283500
         },
-
         {
             "name": "Radionavigation",
             "type": "",
@@ -462,7 +461,7 @@
             "start": 19990000,
             "end": 20010000
         },
-       {
+        {
             "name": "15m Ham Band",
             "type": "amateur",
             "start": 21000000,
@@ -528,7 +527,6 @@
             "start": 26175000,
             "end": 26200000
         },
-
         {
             "name": "CB",
             "type": "amateur",
@@ -545,13 +543,61 @@
             "name": "10m Ham Band",
             "type": "amateur",
             "start": 28000000,
-            "end": 29750000
+            "end": 30010000
+        },
+        {
+            "name": "Paging (Hospitals)",
+            "type": "",
+            "start": 30010000,
+            "end": 37500000
+        },
+        {
+            "name": "Amateur (Secondary)",
+            "type": "amateur",
+            "start": 37500000,
+            "end": 49000000
+        },
+        {
+            "name": "Radiolocation (Secondary)",
+            "type": "",
+            "start": 46000000,
+            "end": 68000000
+        },
+        {
+            "name": "VHF Television Broadcasting (Ceased)",
+            "type": "",
+            "start": 47000000,
+            "end": 68000000
         },
         {
             "name": "6m Ham Band",
             "type": "amateur",
             "start": 50000000,
-            "end": 54000000
+            "end": 52000000
+        },
+        {
+            "name": "Amateur (Secondary)",
+            "type": "amateur",
+            "start": 54000000,
+            "end": 70500000
+        },
+        {
+            "name": "PMR, Community Repeaters, Business Radio",
+            "type": "",
+            "start": 68000000,
+            "end": 70450000
+        },
+        {
+            "name": "ILS, Marker Beacons",
+            "type": "",
+            "start": 74800000,
+            "end": 75200000
+        },
+        {
+            "name": "PMR, Community Repeaters, Business Radio",
+            "type": "",
+            "start": 75200000,
+            "end": 87500000
         },
         {
             "name": "FM Broadcast",
@@ -560,9 +606,15 @@
             "end": 108000000
         },
         {
-            "name": "Air Band VOR/ILS",
+            "name": "Aeronautical Radionavigation",
             "type": "aviation",
             "start": 108000000,
+            "end": 117975000
+        },
+        {
+            "name": "VOR",
+            "type": "aviation",
+            "start": 112000000,
             "end": 118000000
         },
         {
@@ -578,46 +630,208 @@
             "end": 138000000
         },
         {
+            "name": "PMR, Paging",
+            "type": "",
+            "start": 138000000,
+            "end": 144000000
+        },
+        {
             "name": "2m Ham Band",
             "type": "amateur",
             "start": 144000000,
-            "end": 148000000
+            "end": 146000000
         },
         {
-            "name": "Marine",
+            "name": "PMR, Paging",
+            "type": "",
+            "start": 146000000,
+            "end": 153000000
+        },
+        {
+            "name": "PMR, Paging, Alarm Systems",
+            "type": "",
+            "start": 153000000,
+            "end": 154000000
+        },
+		{
+            "name": "PMR, Paging",
+            "type": "",
+            "start": 154000000,
+            "end": 156762500
+        },
+        {
+            "name": "Maritime Mobile",
             "type": "marine",
             "start": 156000000,
-            "end": 162025000
+            "end": 163000000
         },
         {
-            "name": "1.25m Ham Band",
-            "type": "amateur",
-            "start": 222000000,
-            "end": 225000000
+            "name": "Land Mobile",
+            "type": "",
+            "start": 169812500,
+            "end": 174000000
         },
         {
-            "name": "Military Air",
-            "type": "military",
-            "start": 225000000,
-            "end": 380000000
+            "name": "VHF Broadcasting: (DVB-T), (T-DAB)",
+            "type": "",
+            "start": 174000000,
+            "end": 233000000
         },
         {
-            "name": "Military Sat",
-            "type": "military",
-            "start": 240000000,
-            "end": 270000000
+            "name": "Aeronautical Mobile",
+            "type": "aviation",
+            "start": 230000000,
+            "end": 235000000
+        },
+        {
+            "name": "Government Services",
+            "type": "",
+            "start": 235000000,
+            "end": 240000000
+        },
+        {
+            "name": "Aeronautical Mobile",
+            "type": "aviation",
+            "start": 242950000,
+            "end": 273000000
+        },
+        {
+            "name": "Mobile: Emergency Search And Rescue (Position Fixing)",
+            "type": "",
+            "start": 273000000,
+            "end": 312000000
+        },
+        {
+            "name": "Aeronautical Mobile",
+            "type": "aviation",
+            "start": 312000000,
+            "end": 328600000
+        },
+        {
+            "name": "Aeronautical Radionavigation",
+            "type": "aviation",
+            "start": 328600000,
+            "end": 335400000
+        },
+        {
+            "name": "Tetra (Emergency)",
+            "type": "",
+            "start": 380000000,
+            "end": 385000000
+        },
+        {
+            "name": "Tetra (Civil)",
+            "type": "",
+            "start": 385000000,
+            "end": 389900000
+        },
+        {
+            "name": "Tetra (Emergency)",
+            "type": "",
+            "start": 390000000,
+            "end": 395000000
+        },
+        {
+            "name": "Tetra (Civil)",
+            "type": "",
+            "start": 395000000,
+            "end": 399900000
+        },
+        {
+            "name": "Time (Satellite)",
+            "type": "",
+            "start": 400050000,
+            "end": 400150000
+        },
+        {
+            "name": "Radiosondes",
+            "type": "",
+            "start": 400150000,
+            "end": 406000000
+        },
+        {
+            "name": "Emergency Beacons",
+            "type": "",
+            "start": 406000000,
+            "end": 406100000
+        },
+        {
+            "name": "Digital and Analogue Trunked Radio",
+            "type": "",
+            "start": 410000000,
+            "end": 430000000
         },
         {
             "name": "70cm Ham Band",
             "type": "amateur",
-            "start": 420000000,
-            "end": 450000000
+            "start": 430000000,
+            "end": 440000000
+        },
+        {
+            "name": "Business Radio",
+            "type": "",
+            "start": 440000000,
+            "end": 446000000
         },
         {
             "name": "PMR446",
             "type": "amateur",
             "start": 446000000,
+            "end": 446100000
+        },
+		{
+            "name": "PMR446 (Digital)",
+            "type": "amateur",
+            "start": 446100000,
             "end": 446200000
+        },
+        {
+            "name": "Business Radio",
+            "type": "",
+            "start": 446200000,
+            "end": 450000000
+        },
+		{
+            "name": "PMR UHF Band and Community Repeaters",
+            "type": "",
+            "start": 450000000,
+            "end": 455000000
+        },
+		{
+            "name": "PMR UHF Band, Digital Land Mobile (Civil)",
+            "type": "",
+            "start": 455000000,
+            "end": 456000000
+        },
+		{
+            "name": "Land Mobile (Government Services, Commercial, Local Authorities)",
+            "type": "",
+            "start": 456000000,
+            "end": 459000000
+        },
+		{
+            "name": "PMR UHF Band, On-Site Paging and Telemetry",
+            "type": "",
+            "start": 459000000,
+            "end": 460000000
+        },
+		{
+            "name": "Land Mobile PMR (Government Services, Commercial, Local Authorities), and Community Repeaters",
+            "type": "",
+            "start": 460000000,
+            "end": 469850000
+        },
+		{
+            "name": "Wide-Area Paging",
+            "type": "",
+            "start": 469850000,
+            "end": 470000000
+        },
+		{
+            "name": "UHF Television Broadcasting",
+            "type": "",
+            "start": 470000000,
+            "end": 694000000
         },
         {
             "name": "33cm Ham Band",
