@@ -444,7 +444,7 @@
             "end": 18900000
         },
         {
-            "name": "Shortwave Broadcast",
+            "name": "15m Broadcast Band",
             "type": "broadcast",
             "start": 18900000,
             "end": 19020000
